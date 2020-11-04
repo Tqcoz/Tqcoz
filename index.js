@@ -1,8 +1,2 @@
-let msg = 'YouWalkedOff';
-document.querySelector('.header').addEventListener('mouseover', e =>{
-    console.log(e);
-    document.querySelector('.header').innerHTML = msg + ' <i class="fas fa-toggle-off"></i>'
-})
-document.querySelector('.header').addEventListener('mouseout', e =>{
-    document.querySelector('.header').innerHTML = msg + ' <i class="fas fa-toggle-on"></i>'
-})
+// Made by YouWalkedOff, do not steal and claim it's made by you! 
+let msg='YouWalkedOff';document.querySelector('.header').addEventListener('mouseover',e=>{console.log(e);document.querySelector('.header').innerHTML=msg+' <i class="fas fa-toggle-off"></i>'});document.querySelector('.header').addEventListener('mouseout',e=>{document.querySelector('.header').innerHTML=msg+' <i class="fas fa-toggle-on"></i>'});for(x = 0;x < 15; x++){console.log(x + "// **** Made by YouWalkedOff **** \\" + x)}
